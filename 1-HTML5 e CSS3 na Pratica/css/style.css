@@ -30,7 +30,7 @@ p{
 .cabecalho{
     width: 100%;
     float: left;
-    padding: 50px 8px;
+    padding: 50px 8%;
     background-color: #13c7ae;
 }
 .cabecalho form {
@@ -41,6 +41,7 @@ p{
     width: 85%;
     float: left;
     padding: 15px 10px;
+    border-radius: 5px 0 0 5px;
 }
 .cabecalho button{
     width: 15%;
@@ -48,6 +49,7 @@ p{
     padding: 15px 10px;
     background-color: #0cae98;
     color:#fff;
+    border-radius: 0 5px 5px 0;
 }
 .logo a {
     width: 221px;
@@ -73,4 +75,22 @@ p{
 }
 .menu li a:hover{
     color:#fff;
+}
+/*SOCIAL-ICONS*/
+.social-icons{
+    float: right;
+}
+.social-icons a{
+    color: #fff;
+    float: left;
+    margin-left: 12px;
+}
+.btn-facebook:hover{
+    color:#3b5998;
+}
+.btn-twitter:hover{
+    color:354a4d6;
+}
+.btn-google:hover{
+    color: d73d32;
 }
