@@ -12,6 +12,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 20px 50px;
+    background-color: #fff;
 }
 header img{
     width: 200px;
@@ -29,9 +30,38 @@ header li:first-child{
     margin-left: 0;
 }
 header li:last-child{
-    margin-right: 0;s
+    margin-right: 0;
 }
 @media (max-width:700px){
     header{flex-direction: column;}
     header img{margin-bottom: 15px;}
+    .hero h1{font-size: 2.5rem;}
+    .hero h3{font-size: 1.5rem;}
+}
+/*HERO*/
+.hero{
+    text-align: center;
+    background-image: url(../img/hero.jpg); 
+    background-size: cover; 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+.hero h1{
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+}
+.hero h3{
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.hero .btn{
+    text-transform: uppercase;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #191c03;
+    padding: 20px 50px;
 }
