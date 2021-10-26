@@ -154,9 +154,8 @@ header li:last-child{
 .caracteristicas .grid{
     width: 100%;
     display: flex;
-    display:flex;
 }
-.caracteristicas.grid li{
+.caracteristicas .grid li{
     height: 350px;
     padding: 0 30px;
     text-align: center;
@@ -164,7 +163,7 @@ header li:last-child{
 }
 .caracteristicas .grid li i{
     color: #c3c63b;
-    font-size: 50px;
+    font-size: 3.5rem;
     margin-bottom: 30px;
 }
 .caracteristicas.grid li h4{
@@ -177,11 +176,11 @@ header li:last-child{
 }
 
 
-
-
-@media (max-width:700px){
-    .caracteristicas .grid li.small, .caracteristicas .grid li.large{
-        flex-basis: 100%;
+@media (max-width:850px){
+    .caracteristicas .grid{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 }
 
